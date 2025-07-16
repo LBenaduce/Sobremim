@@ -1,59 +1,59 @@
 @font-face {
   font-family: "Permanent Marker";
-  src: url(/PermanentMarker.ttf) format("truetype"),
-    url(/PermanentMarker.woff) format("woff");
+  src: url("fonts/PermanentMarker.ttf") format("truetype"),
+       url("fonts/PermanentMarker.woff") format("woff");
 }
 
 @font-face {
   font-family: "Inter";
-  src: url(./fonts/Inter.ttf) format("truetype");
-}
-
-a {
-  margin: 0;
-  font-size: 100%;
-  font-weight: normal;
+  src: url("fonts/Inter.ttf") format("truetype");
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.page {
+body {
   font-family: "Inter", sans-serif;
   background: url("field.jpg");
   background-size: cover;
 }
 
 .header {
-height: 100vh;
-background-image: url("maringa.jpg");
-background-size: cover;
+  height: 100vh;
+  background-image: url("maringa.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
-  font-family: "Permanent Marker"
-, cursive;
-font-size: 140px;
-line-height: 140px;
-color: white;
-text-transform: uppercase;
-max-width: 1240px;
-margin: auto;
+  font-family: "Permanent Marker", cursive;
+  font-size: 140px;
+  line-height: 140px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 1240px;
+  margin: auto;
 }
 
 h2 {
-  font-family: "Permanent Marker"
-, cursive;
-font-size: 24px;
-margin-bottom: 10px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .overlay {
-width: 100%;
-height: 100%;
-background-color: rgba(0, 0, 0, 0.5);
-display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content {
@@ -61,39 +61,36 @@ display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 790px;
-margin: 100px auto 50px;
+  margin: 100px auto 50px;
 }
 
+.card {
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px;
+  background: #ffffff;
+  box-shadow: 4px 4px 5px rgba(122, 161, 197, 0.5); 
+  font-size: 16px;
+  text-align: center;
+}
 
-.card_image{
+.card_image {
   height: 200px;
   object-fit: contain;
   width: 100%;
   margin-bottom: 25px;
 }
 
-
-.card {
-  width: 350px;
-margin-bottom: 60px;
-padding: 45px 45px 70px;
-background: #ffffff;
-box-shadow: 4px 4px 5px rgba(122, 161, 197, 0.5); 
- font-size: 16px;
-}
-
 .footer {
-min-height: 300px;
-background-color: #000000;
-color:#ffffff;
-font-size:24px;
-font-style:italic;
-width:100%;
-text-align: center;
-display: inline-block;
-margin:auto;  
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+  min-height: 300px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 24px;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
