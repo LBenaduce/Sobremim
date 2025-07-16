@@ -27,7 +27,7 @@ a {
 .header {
 height: 100vh;
 bbackground-image: url("maringa1.png");
-background-size: center / contain no-repeat;
+background-size: auto;
 }
 
 h1 {
