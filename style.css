@@ -21,14 +21,14 @@ a {
 
 .page {
   font-family: "Inter", sans-serif;
-   background: url("pixel_art_large.png");
-  background-size: contain;
+   background: url("field.jpg");
+  background-size: cover;
 
 .header {
 height: 100vh;
   background-color: black;
 bbackground-image: url("maringa.jpg");
-background-size: contain;
+background-size: cover;
 }
 
 h1 {
