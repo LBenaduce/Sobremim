@@ -22,13 +22,12 @@ a {
 .page {
   font-family: "Inter", sans-serif;
    background: url("pixel_art_large.png");
-  background-size: cover;
-}
+  background-size: contain;
 
 .header {
 height: 100vh;
 bbackground-image: url("maringa.png");
-background-size: cover;
+background-size: contain;
 }
 
 h1 {
