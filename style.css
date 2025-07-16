@@ -26,7 +26,8 @@ a {
 
 .header {
 height: 100vh;
-bbackground-image: url("maringa.png");
+  background-color: black;
+bbackground-image: url("maringa.jpg");
 background-size: contain;
 }
 
