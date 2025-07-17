@@ -75,7 +75,8 @@ margin: 100px auto 50px;
 }
 
 
-.card {
+.card:hover {
+  transform: scale(1.15);
   width: 350px;
 margin-bottom: 60px;
 padding: 45px 45px 70px;
