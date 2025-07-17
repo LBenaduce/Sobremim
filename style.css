@@ -26,11 +26,13 @@ a {
   background-size: cover;
 
 .header {
-height: 100vh;
 background-image: url("maringa1.png");
-background-size: contain;
-background-repeat: no-repeat;
-background-position: top;
+position: fixed;
+top: 0;
+width: 100%;
+height: 60px;
+background: #fff;
+z-index: 1000;
 }
 
 h1 {
