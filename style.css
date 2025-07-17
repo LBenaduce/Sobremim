@@ -30,7 +30,7 @@ height: 100vh;
 bbackground-image: url("maringa1.png");
 background-size: contain;
 background-repeat: no-repeat;
-background-position: center;
+background-position: top;
 }
 
 h1 {
