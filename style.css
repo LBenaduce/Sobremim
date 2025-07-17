@@ -85,7 +85,7 @@ margin: 100px auto 50px;
 }
 
 .card:hover {
-  transform: scale(1.15);
+  transform: scale(1.25);
   box-shadow: 4px 4px 5px rgba(122, 161, 197, 0.5);
 }
 
