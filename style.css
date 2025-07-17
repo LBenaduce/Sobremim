@@ -75,14 +75,18 @@ margin: 100px auto 50px;
 }
 
 
+.card {
+  width: 350px;
+  padding: 45px 45px 70px;
+  background: #ffffff;
+  font-size: 16px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .card:hover {
   transform: scale(1.15);
-  width: 350px;
-margin-bottom: 60px;
-padding: 45px 45px 70px;
-background: #ffffff;
-box-shadow: 4px 4px 5px rgba(122, 161, 197, 0.5); 
- font-size: 16px;
+  box-shadow: 4px 4px 5px rgba(122, 161, 197, 0.5);
 }
 
 .footer {
