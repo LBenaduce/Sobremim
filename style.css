@@ -27,12 +27,9 @@ a {
 
 .header {
 background-image: url("maringa1.png");
-position: fixed;
-top: 0;
-width: 100%;
-height: 60px;
-background: #fff;
-z-index: 1000;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center
 }
 
 h1 {
