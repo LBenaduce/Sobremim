@@ -1,13 +1,13 @@
 @font-face {
 
   font-family: "Permanent Marker";
- src: url("/PermanentMarker.woff") format("truetype");
-    url(//PermanentMarker.woff) format("woff");
+ src: url("./PermanentMarker.woff") format("truetype");
+    url(./PermanentMarker.woff) format("woff");
 }
 
 @font-face {
   font-family: "Inter";
-  src: url(/Inter.ttf) format("truetype");
+  src: url(./Inter.ttf) format("truetype");
 }
 
 a {
