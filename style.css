@@ -1,8 +1,8 @@
 @font-face {
 
   font-family: "Permanent Marker";
- src: url("/Inter.ttf") format("truetype");
-    url(/fonts/PermanentMarker.woff) format("woff");
+ src: url("/PermanentMarker.woff") format("truetype");
+    url(//PermanentMarker.woff) format("woff");
 }
 
 @font-face {
